@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>ATOM</appname>
+    <equal>com.github.atom</equal>
+  </appdef>
+  <appdef>
+    <appname>EMACS</appname>
+    <equal>org.gnu.Emacs</equal>
+  </appdef>
+  <appdef>
+    <appname>TERMINAL</appname>
+    <equal>com.apple.Terminal</equal>
+  </appdef>
+
+  <item>
+    <name>Emacs like keybindings</name>
+    <identifier>private.emacs_like_keybindings</identifier>
+
+    <not>ATOM, EMACS, TERMINAL</not>
+
+    <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+
+    <autogen>__KeyToKey__ KeyCode::V, ModifierFlag::OPTION_L, KeyCode::PAGEUP</autogen>
+    <autogen>__KeyToKey__ KeyCode::V, ModifierFlag::CONTROL_L, KeyCode::PAGEDOWN</autogen>
+
+    <autogen>__KeyToKey__ KeyCode::G, ModifierFlag::CONTROL_L, KeyCode::ESCAPE</autogen>
+  </item>
+</root>

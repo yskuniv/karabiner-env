@@ -24,7 +24,5 @@
     <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
     <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
     <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
-
-    <autogen>__KeyToKey__ KeyCode::G, ModifierFlag::CONTROL_L, KeyCode::ESCAPE</autogen>
   </item>
 </root>

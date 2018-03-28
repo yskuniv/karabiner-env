@@ -11,6 +11,7 @@
   <appdef>
     <appname>TERMINAL</appname>
     <equal>com.apple.Terminal</equal>
+    <equal>com.googlecode.iterm2</equal>
   </appdef>
 
   <item>
